@@ -1,3 +1,4 @@
+import 'package:balanced_meal_app/widgets/custom_card.dart';
 import 'package:flutter/material.dart';
 
 class OrderView extends StatelessWidget {
@@ -20,6 +21,7 @@ class OrderView extends StatelessWidget {
         ),
         centerTitle: true,
       ),
+      body: Column(children: [CustomCard()]),
     );
   }
 }
